@@ -1,0 +1,17 @@
+.icon-btn {
+  background-color: lightgray;
+  padding: 0.5rem;
+  border: 3px solid black;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.icon-btn--pressed {
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+}
