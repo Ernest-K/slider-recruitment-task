@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "text": "This is slide 1 text",
+    "imageURL": "/images/image_1.jpg",
+    "audioURL": "/audio/audio_1.mp3"
+  },
+  {
+    "id": 2,
+    "text": "This is slide 2 text",
+    "imageURL": "/images/image_2.jpg",
+    "audioURL": "/audio/audio_2.mp3"
+  },
+  {
+    "id": 3,
+    "text": "This is slide 3 text",
+    "imageURL": "/images/image_3.jpg",
+    "audioURL": "/audio/audio_3.mp3"
+  },
+  {
+    "id": 4,
+    "text": "This is slide 4 text",
+    "imageURL": "/images/image_4.jpg",
+    "audioURL": "/audio/audio_4.mp3"
+  }
+]
