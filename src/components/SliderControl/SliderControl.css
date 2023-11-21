@@ -1,0 +1,19 @@
+.control__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.control__counter {
+  font-family: var(--IbmPlexMonoFont);
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .control__container {
+    justify-content: space-evenly;
+  }
+}
