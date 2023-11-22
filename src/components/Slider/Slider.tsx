@@ -46,6 +46,7 @@ export default function Slider({ slides }: SliderProps) {
           {slides.map((slide, index) => (
             <Slide
               key={index}
+              title="Title"
               description={slide.text}
               imageURL={slide.imageURL}
               active={activeSlideIndex === index}

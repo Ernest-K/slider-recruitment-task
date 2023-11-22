@@ -14,6 +14,7 @@ describe("Slide component", () => {
     render(
       <Slide
         active={active}
+        title="Title"
         description={description}
         imageURL={imageURL}
         onHeightChange={onHeightChange}
@@ -35,13 +36,14 @@ describe("Slide component", () => {
     render(
       <Slide
         active={active}
+        title="Title"
         description={description}
         imageURL={imageURL}
         onHeightChange={onHeightChange}
       />
     );
 
-    const imageElement = screen.getByAltText("");
+    const imageElement = screen.getByAltText("slide_image");
     expect(imageElement).toHaveAttribute(
       "src",
       `${import.meta.env.VITE_API_URL}${imageURL}`
@@ -59,6 +61,7 @@ describe("Slide component", () => {
     render(
       <Slide
         active={active}
+        title="Title"
         description={description}
         imageURL={imageURL}
         onHeightChange={onHeightChange}
@@ -80,6 +83,7 @@ describe("Slide component", () => {
     render(
       <Slide
         active={active}
+        title="Title"
         description={description}
         imageURL={imageURL}
         onHeightChange={onHeightChange}

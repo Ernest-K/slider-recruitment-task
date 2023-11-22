@@ -3,6 +3,7 @@ import "./Slide.css";
 
 interface SlideProps {
   active: boolean;
+  title: string;
   description: string;
   imageURL: string;
   onHeightChange: (height: number) => void;
@@ -10,6 +11,7 @@ interface SlideProps {
 
 export default function Slide({
   active,
+  title,
   description,
   imageURL,
   onHeightChange,
@@ -44,11 +46,11 @@ export default function Slide({
         <img
           className="slide__image"
           src={`${VITE_API_URL}${imageURL}`}
-          alt=""
+          alt="slide_image"
         />
       </div>
       <div className="slide__content ">
-        <h3 className="slide__title">Title</h3>
+        <h3 className="slide__title">{title}</h3>
         <p className="slide__description">{description}</p>
       </div>
     </div>

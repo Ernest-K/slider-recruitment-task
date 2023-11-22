@@ -1,9 +1,9 @@
+import IconButton from "../IconButton/IconButton";
 import ArrowLeftIcon from "../../assets/icons/Arrow-Left.svg";
 import ArrowRightIcon from "../../assets/icons/Arrow-Right.svg";
 import "../IconButton/IconButton.css";
 import "./SliderControl.css";
 import "../../index.css";
-import IconButton from "../IconButton/IconButton";
 
 interface NavigationProps {
   onPrev: () => void;

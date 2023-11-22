@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { SlideData } from "../../types";
 import Slider from "../Slider/Slider";
-import "../Slider/Slider.css";
 import getSlidesData from "../../services/slideService";
+import "../Slider/Slider.css";
 
 export default function SliderWrapper() {
   const [slidesData, setSlidesData] = useState<SlideData[]>([]);
