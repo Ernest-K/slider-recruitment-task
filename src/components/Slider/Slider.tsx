@@ -66,6 +66,7 @@ export default function Slider({ slides }: SliderProps) {
               playAudio();
               toggleMute();
             }}
+            color="#B4BDFF"
             iconSrc={!isMuted ? VolumeHighIcon : VolumeIcon}
             iconStyle={{
               width: 48,

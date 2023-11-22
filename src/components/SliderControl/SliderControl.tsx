@@ -22,7 +22,7 @@ export default function SliderControl({
     <div className="control__container" data-testid="slider-control">
       <IconButton
         onClick={onPrev}
-        color="#FFA6F6"
+        color="#A6FAFF"
         iconSrc={ArrowLeftIcon}
         iconStyle={{ width: 48 }}
       />
